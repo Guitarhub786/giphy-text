@@ -17,16 +17,19 @@ button.addEventListener("click", () => {
 
 
 function parseText() {
-  const count = 25;
+  const count = 0;
   const rnd = Math.random()
   let ping = Math.round(rnd * count)
+  const count2 = 20;
+  const rnd2 = Math.random()
+  let ping2 = Math.round(rnd2 * count2)
 
   let collection = []
   let userInput = document.querySelector("#input").value
   let parse = userInput.split(" ")
 
   for (let i = 0; i < parse.length; i++) {
-    let uber = fetch(`https://api.giphy.com/v1/gifs/search?api_key=bKgN9fTDyt4siFR46DXdpXAONqESQz4v&q=${parse[i]}&limit=${count + 1}&offset=2&rating=G&lang=en`);
+    let uber = fetch(`https://api.giphy.com/v1/gifs/search?api_key=bKgN9fTDyt4siFR46DXdpXAONqESQz4v&q=${parse[i]}&limit=${count + 1}&offset=${ping2}&rating=G&lang=en`);
 
 
     uber
