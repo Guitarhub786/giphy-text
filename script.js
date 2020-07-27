@@ -48,9 +48,9 @@ function parseText() {
           console.log("PASSED", log)
           console.log("PASSED", parse[i])
 
-          collection.push(`<div id="container">`)
+          collection.push(`<div class="container">`)
           collection.push(`<h1 id="usertext">${parse[i]}</h1>`)
-          collection.push(`<img src="${data.data[ping].images.original.url}" alt="missing image">`)
+          collection.push(`<img class="pic" src="${data.data[ping].images.original.url}" alt="missing image">`)
 
 
           document.querySelector("#wrapper").innerHTML = collection.join(" ")

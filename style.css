@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: lightskyblue;
 }
 
+body {
+  margin: 10px;
+}
+
 #input {
-  font-weight: bold;
-  font-size: 22px;
+  font-size: 36px;
   color: blue;
-  /* margin: 10px; */
-  /* margin-left:20px; */
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 5px;
-  padding: 5px;
+
+  border: 3px solid #00B4CC;
+  padding: 25px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
 }
 
 #message {
@@ -23,27 +31,55 @@
 }
 
 #getData {
-  font-size: 16px;
-  padding: 5px;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+
 }
 
-img {
+#getData:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+#getData:active {
+	position:relative;
+	top:1px;
+}
+
+.logo {
+  height: 100px;
+  /* Using margin from body */
+  /* margin: 10px; */
+}
+
+.pic {
   /* width: 460px; */
   height: 150px;
   margin-top: 40px;
   border-radius: 5%;
-  border: 5px solid crimson;
+  border: 5px solid #F7545E;
   border-style: ridge;
 }
 
-#container {
+.container {
   display:flex;
-  /* flex-wrap: wrap; */
-  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   align-items: center;
   font-size: 18px;
   color: #333;
-  /* border: 5px solid #888; */
+  /* border: 5px ridge #888; */
   /* border-style: ridge; */
 }
 
