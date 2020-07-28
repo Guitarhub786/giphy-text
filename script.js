@@ -12,7 +12,6 @@ input.addEventListener("keyup", function (event) {
 
 button.addEventListener("click", () => {
   parseText()
-  // sendApiRequest()
 })
 
 
@@ -31,7 +30,6 @@ function parseText() {
   for (let i = 0; i < parse.length; i++) {
     let uber = fetch(`https://api.giphy.com/v1/gifs/search?api_key=bKgN9fTDyt4siFR46DXdpXAONqESQz4v&q=${parse[i]}&limit=${count + 1}&offset=${ping2}&rating=G&lang=en`);
 
-
     uber
       .then(data => data.json())
       .then(data => {
@@ -40,11 +38,9 @@ function parseText() {
 
         if (data.pagination.count === 0) {
           let log = `[Try again!] Could not find a match! count = ${data.pagination.count}`
-          //document.querySelector("#message").innerHTML = log
           console.log(log)
         } else {
           log = `[Found pictures] I will send them now. count =  ${data.pagination.count}`
-          //document.querySelector("#message").innerHTML = log
           console.log("PASSED", log)
           console.log("PASSED", parse[i])
 
@@ -56,14 +52,7 @@ function parseText() {
           document.querySelector("#wrapper").innerHTML = collection.join(" ")
           console.log("Collection", collection)
 
-
         }
       })
-
-
   }
-
-  // document.querySelector("#message").innerHTML = collection.join(" ")
-  // console.log(collection)
-
 }
