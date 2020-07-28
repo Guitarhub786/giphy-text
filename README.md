@@ -1,6 +1,7 @@
 # Chingu Solo Project - Tier 2 - giphy-text
 
-<img src="./preview.PNG" alt="Chingu Coupons preview image"/>
+![Markdown Logo](preview.png)
+<!-- <img src="./preview.PNG" alt="Chingu Coupons preview image"/> -->
 
 ## To run this project:
 * Clone/Download/Fork this repository
@@ -59,7 +60,8 @@ With these non-serious Apps that only needs an email, and the worst that can hap
 
 * I found the CSS and especially trying to get the elements to wrap around challenging as the “HTML” is not all hard-coded and are created dynamically via code into the DOM. This is compounded by the fact that because of the Randomizing of the Algorithm the output display is ‘nested’.
 
-<img src="./css-elements.PNG" alt="Chingu Coupons preview image"/>
+![Markdown Logo](css-elements.png)
+<!-- <img src="./css-elements.PNG" alt="Chingu Coupons preview image"/> -->
 
 * Due to the  ‘call-back’ and ‘Async’ nature of this App and the Giphy Api services. The code does not stop when Fetching/Searching/Displaying data. As you see in the sample preview image. The actual order from the text “What did you say?” comes out. “did, say?, What, you”. Maybe a Synchronous solution is better suited for this App.
 

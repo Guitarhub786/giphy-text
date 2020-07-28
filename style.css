@@ -79,7 +79,7 @@ body {
   align-items: center;
   font-size: 18px;
   color: #333;
-  border: 5px ridge #888;
+  /* border: 5px ridge #888; */
   /* border-style: ridge; */
 }
 
