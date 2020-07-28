@@ -30,7 +30,7 @@ However, bear in mind that we are also harnessing Giphy’s Api search for the b
 ## Function:
 * You type in a phrase in the input box and either press ‘enter’ or click on the ‘Randomize Search’ button.
 * The phrase is converted into an array and then parsed to fetch the first 20 (manually set in code) searches for each word from the Giphy Api.
-  * “What did you say?”  [‘what’,’did’,’you’,’say?’]  ‘what’*20 ’did’*20 ’you’*20 ’say?’*20 = 80 Giphy Api calls.
+  * “What did you say?” -> [‘what’,’did’,’you’,’say?’] -> ‘what’*20 ’did’*20 ’you’*20 ’say?’*20 = 80 Giphy Api calls.
 * From the 20 versions of each word we could display, we actually randomize them to choose which version will be displayed so we get varied results.
 * The results are then displayed with a set of chained images with its related word next to it. 
 * The chain is responsive to your device so if it can’t fit a phrase on the screen, it will wrap and continue on a new line.
@@ -58,7 +58,7 @@ Enter following API_KEY without quotes **“”** --> **bKgN9fTDyt4siFR46DXdpXAO
 
 With these non-serious Apps that only needs an email, and the worst that can happen is your monthly quota will run out and you can’t use your app. However, some services require your credit card details in order to get the API_KEY. In the wrong hands this could be quite costly. Personally, I felt that was a shame as there are some great API resources out there that could be use for personal or portfolio projects that could be made with just HTML/CSS/JavaScript you may want to share. The idea of this App is that if there was a popular (or people had) an API_KEY of their own. You could send your Project to anyone on the web and not worry about losing your API_KEY as the user on the other end enters their own API_KEY at the start of the application. 
 
-* I found the CSS and especially trying to get the elements to wrap around challenging as the “HTML” is not all hard-coded and are created dynamically via code into the DOM. This is compounded by the fact that because of the Randomizing of the Algorithm the output display is ‘nested’.
+* I found the CSS and especially challenging trying to get the elements to wrap around challenging as the “HTML” is not all hard-coded and are created dynamically via code into the DOM. This is compounded by the fact that because of the Randomizing of the Algorithm the output display is ‘nested’.
 
 ![Markdown Logo](css-elements.png)
 <!-- <img src="./css-elements.PNG" alt="Chingu Coupons preview image"/> -->
