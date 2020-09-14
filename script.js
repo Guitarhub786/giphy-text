@@ -1,3 +1,5 @@
+console.log(API_KEY)
+
 let button = document.querySelector("#getData")
 let message = document.querySelector("#message")
 document.querySelector("#message").innerHTML = "Type in your message: "
