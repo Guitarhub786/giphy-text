@@ -49,10 +49,7 @@ For demonstration and easy reference purposes, I created a Github branch for eac
 
 ## Challenges and room for improvement:
 * As this was originally a personal challenge, my goal was just a ‘proof of concept’. So, the CSS and structure could be improved.
-* The API_KEY is exposed and needs to be hidden behind an environmental variable ‘.env’.  I have spent a lot of time trying to find ways to hide the API_KEY on the front-end browser without the need of the back-end. One of the solutions I came up with was based on recommendation stated by the creator of ‘Codepen’ for using his website. That is to use Local Storage. So I adapted this App (when it was on version giphy-api-v3) just for a proof of concept. Here it is if you want to check it out or use this solution. 
-
-Either use your own Giphy_API key or for demo testing  purposes only use the following API_KEY pretending that it is your own.
-Enter following API_KEY without quotes **“”** --> **bKgN9fTDyt4siFR46DXdpXAONqESQz4v** without quotes
+* The API_KEY is exposed and needs to be hidden behind an environmental variable ‘.env’.  I have spent a lot of time trying to find ways to hide the API_KEY on the front-end browser without the need of the back-end. One of the solutions I came up with was based on recommendation stated by the creator of ‘Codepen’ for using his website. That is to use Local Storage. So I adapted this App (when it was on version giphy-api-v3) just for a proof of concept. Here it is if you want to check it out or use this solution. You will need your own Giphy API_KEY without the quotes.
 
 <a href="https://guitarhub786.github.io/giphy-text-storage/">https://guitarhub786.github.io/giphy-text-storage/</a>
 
@@ -79,7 +76,7 @@ With these non-serious Apps that only needs an email, and the worst that can hap
 * <a href="https://guitarhub786.github.io/giphy-text/">Github</a>
 
 ## Contributors:
- * <a href="https://github.com/guitarhub786">Hak Jenkins</a>
+ * <a href="https://github.com/guitarhub786">Guitarhub786</a>
 
  
 ## Technologies used :
