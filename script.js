@@ -1,4 +1,4 @@
-console.log(API_KEY)
+const API_KEY = "0UTRbFtkMxAplrohufYco5IY74U8hOes"
 
 let button = document.querySelector("#getData")
 let message = document.querySelector("#message")
